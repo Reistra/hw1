@@ -1,0 +1,19 @@
+# Данные — хранить локально, не загружать в GitHub
+data/
+*.csv
+*.zip
+
+# Окружения и кеши
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Тяжёлые файлы моделей и результатов
+*.pt
+*.pth
+*.pkl
+*.pickle
